@@ -9,9 +9,16 @@ body {
     display: flex;
     justify-content: flex-end;
 }
-.navbar a {
-    float: left;
-    padding: 26px 12px;
-    text-decoration: none;
+.navbar .logo {
     width: 20%;
+}
+.navbar .navlinks {
+    width: 100%;
+}
+.navlinks a {
+    float: left;
+    padding: 26px 0px;
+    text-decoration: none;
+    width: 25%;
     text-align: center;
+}
