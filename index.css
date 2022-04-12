@@ -32,15 +32,14 @@ body {
     display: grid;
     place-items: center;
 }
-#landing {
+.content-section {
     justify-content: center;
     height: 100%;
     display: grid;
     place-items: center;
 }
-.landing-card {
+.content-card {
     padding: 0% 8% 0% 11%;
-    border-left: black;
 }
 #landing p {
     font-size: 160%;
