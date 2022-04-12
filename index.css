@@ -56,3 +56,31 @@ body {
     margin: 0px;
     padding-bottom: 3%;
 }
+#about-me .content-card {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 11% 0% 11%;
+}
+.about-text {
+    width: 50%;
+}
+#about-me h1 {
+    font-size: 265%;
+    margin: 0px;
+    padding: 2.5% 0%;
+}
+#about-me p {
+    font-size: 106%;
+    margin: 0px;
+    padding-bottom: 1.75%;
+}
+.profile-picture {
+    width: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: 8%;
+    margin-bottom: 6%;
+}
+.profile-picture img {
+    border-radius: 100%;
+}
