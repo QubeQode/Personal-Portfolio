@@ -3,9 +3,9 @@ html {
 }
 body {
     height: 100%;
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
+    border: 0rem;
+    padding: 0rem;
+    margin: 0rem;
     display: grid;
     grid-template-rows: 5% auto 5%;
 }
@@ -27,7 +27,7 @@ body {
     text-decoration: none;
     width: 25%;
     flex: 2.75;
-    border-left: 1px solid black;
+    border-left: 0.0025rem solid black;
     align-self: center;
     display: grid;
     place-items: center;
@@ -39,47 +39,46 @@ body {
     place-items: center;
 }
 .content-card {
-    padding: 0% 8% 0% 11%;
+    margin: 0rem 9rem 0rem 10rem;
 }
 #landing p {
-    font-size: 160%;
-    margin: 0px;
-    padding-bottom: 2.5%;
+    font-size: 1.5rem;
+    margin: 0rem;
+    padding-bottom: 1.3rem;
 }
 #landing h1 {
-    font-size: 380%;
-    margin: 0px;
-    padding-bottom: 2%;
+    font-size: 3.7rem;
+    margin: 0rem;
+    padding-bottom: 0.8rem;
 }
 #landing h2 {
-    font-size: 380%;
-    margin: 0px;
-    padding-bottom: 3%;
+    font-size: 3.7rem;
+    margin: 0rem;
+    padding-bottom: 1.45rem;
 }
 #about-me .content-card {
     display: flex;
     flex-direction: row;
-    padding: 0% 11% 0% 11%;
 }
 .about-text {
-    width: 50%;
+    flex: 1;
 }
 #about-me h1 {
-    font-size: 265%;
+    font-size: 2.65rem;
     margin: 0px;
-    padding: 2.5% 0%;
+    padding: 1.25rem 0rem;
 }
 #about-me p {
-    font-size: 106%;
-    margin: 0px;
-    padding-bottom: 1.75%;
+    font-size: 1.06rem;
+    margin: 0rem;
+    padding-bottom: 0.0175rem;
 }
 .profile-picture {
-    width: 50%;
+    flex: 1;
     display: grid;
     place-items: center;
-    margin-left: 8%;
-    margin-bottom: 6%;
+    margin-left: 0.07rem;
+    margin-bottom: 0.03rem;
 }
 .profile-picture img {
     border-radius: 100%;
