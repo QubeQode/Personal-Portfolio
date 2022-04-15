@@ -7,7 +7,7 @@ body {
     padding: 0rem;
     margin: 0rem;
     display: grid;
-    grid-template-rows: 5% auto 5%;
+    grid-template-rows: 2.8rem auto 2.8rem;
 }
 #content {
     overflow: auto;
@@ -19,13 +19,11 @@ body {
     justify-content: space-around;
 }
 .navbar .logo {
-    width: 10%;
     flex: 1;
 }
 .navbar a {
     float: left;
     text-decoration: none;
-    width: 25%;
     flex: 2.75;
     border-left: 0.0025rem solid black;
     align-self: center;
