@@ -58,7 +58,7 @@ body {
 }
 .separator {
     border-bottom: 0.2rem solid #000000;
-    margin: 6rem 17rem;
+    margin: 6.5rem 17rem;
 }
 .separator:first-of-type {
     margin-top: 0rem;
