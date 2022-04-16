@@ -30,8 +30,7 @@ body {
     display: grid;
     place-items: center;
 }
-.content-section {
-    justify-content: center;
+.fullscreen-container {
     height: 100%;
     display: grid;
     place-items: center;
@@ -54,7 +53,7 @@ body {
     margin: 0rem;
     padding-bottom: 1.45rem;
 }
-#about-me .content-card {
+#about-me {
     display: flex;
     flex-direction: row;
 }
