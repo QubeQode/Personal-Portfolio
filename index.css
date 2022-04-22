@@ -106,10 +106,11 @@ body {
     flex-direction: column;
     border-right: 0.1rem solid #000000;
 }
-.heading-container {
+.headings label {
     flex: 1;
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .headings input {
     visibility: collapse;
